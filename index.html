@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>你好，GitHub</title>
-  </head>
-  <body>
-    <h1>枯燥乏味</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .note-image, .note-pdf {
+            margin: 20px 0;
+        }
+        .note-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .note-pdf embed {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Notes</h1>
+    
+    <!-- Displaying PNG -->
+    <div class="note-image">
+        <h2>Note as PNG</h2>
+        <img src="path/to/your/note.png" alt="My Note">
+    </div>
+    
+    <!-- Displaying PDF -->
+    <div class="note-pdf">
+        <h2>Note as PDF</h2>
+        <embed src="path/to/your/note.pdf" type="application/pdf">
+    </div>
+</body>
 </html>
