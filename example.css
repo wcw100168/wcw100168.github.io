@@ -5,9 +5,10 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1 url("pixel_art.gif") no-repeat center fixed !important;
-  background-size: cover;
+  background: #f1f1f1 url("pixel_art.gif") no-repeat center fixed;
+  background-size: 500px 300px; /* Set width and height in pixels */
 }
+
 
 /* Header/Blog Title */
 .header {
